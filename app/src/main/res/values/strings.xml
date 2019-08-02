@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EasyChat</string>
+    <string name="registerBtn">Register</string>
+    <string name="loginbutton">Log In</string>
 </resources>
