@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activities.LoginInActivity">
+        tools:context=".activities.RegisterActivity">
 
 
     <ImageView
@@ -56,17 +56,17 @@
                 android:hint="Email"
                 android:id="@+id/editText"
                 android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/loginBtn"
+                app:layout_constraintBottom_toTopOf="@+id/registerBtn"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginStart="8dp"
                 app:layout_constraintStart_toStartOf="parent" android:backgroundTint="#F3FFFFFF"
                 android:background="@android:drawable/editbox_background" android:textColorHint="#686767"/>
         <Button
-                android:text="@string/loginBtn"
+                android:text="@string/registerBtn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/loginBtn"
+                android:id="@+id/registerBtn"
                 android:background="#009688"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="8dp"
