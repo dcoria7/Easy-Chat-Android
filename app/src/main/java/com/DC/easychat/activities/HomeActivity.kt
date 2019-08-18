@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.DC.easychat.R
 import com.DC.easychat.adapters.SectionPagerAdapter
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -41,7 +42,7 @@ class HomeActivity : AppCompatActivity() {
         if(item != null){
             if(item.itemId == R.id.logoutId){
                 // logout user
-                println("logout clicked")
+                FirebaseAuth.getInstance().signOut()
                 startActivity(Intent(this,MainActivity:: class.java))
                 finish()
             }

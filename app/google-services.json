@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "598922235631-2tbh9bhrhvod55fq0fnsrfunkcplbpd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DC.easychat",
+            "certificate_hash": "bc4c5a717151d8af89d961259639245ce3f770f0"
+          }
+        },
+        {
           "client_id": "598922235631-dhivtamv75d5jiq4gjpt96dcbncc8ibg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
